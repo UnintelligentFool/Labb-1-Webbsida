@@ -1,0 +1,755 @@
+body {
+
+    background-color: #707070;
+
+}
+
+h1 {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: #282828;
+    margin-top: 0.5em;
+
+}
+
+h5 {
+
+    color: #0000af;
+    
+}
+
+p {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: #000000;
+
+}
+
+img.indexLogo {
+
+    margin: 0.5em;
+    margin-top: 1em;
+    width: 10em;
+
+}
+
+ul.checkboxesUl {
+
+    list-style-type: none;
+
+}
+
+/******************************************/
+/******** Start Courses Dropdown **********/
+/******************************************/
+
+div.coursesDropdownDiv {
+
+    background-color: #ffee77;
+    padding: 1em;
+    
+
+}
+
+div.coursesDropdown {
+
+    position: relative;
+    display: inline-block;
+
+}
+
+button.coursesDropdownButton {
+
+    background-color: #dd4000;
+    color: #eeeeee;
+    padding: 0.2em 2em;
+    border: 1;
+    cursor: pointer;/* Useless for my user case? Irrelevant; may aswell stay... */
+
+}
+
+button.coursesDropdownButton:hover {
+
+    background-color: #c03000;
+
+}
+
+button.coursesDropdownButton:focus {
+
+    background-color: #c03000;
+
+}
+
+ul.coursesDropdownList {
+
+    position: absolute;
+    background-color: #FF6f89;
+    box-shadow: 0.21em 0.21em 0.35em 0.16em rgba(0, 0, 0, 0.5);
+    width: 100%;
+    overflow: auto;
+    z-index: 1;/* Investigate */
+
+}
+
+/* JavaScript to activate */.hideCoursesDropdownList {
+
+    display: none;
+
+}
+
+/* JavaScript to activate */.showCoursesDropdownList {
+
+    display: block;
+
+}
+
+a.dropdownLinks {
+
+    text-decoration: none;
+
+}
+
+p.dropdownP {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    margin: 0.5em;
+    color: #000000;
+    user-select: none;
+
+}
+
+p.dropdownP:hover {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    margin: 0.5em;
+    color: #000000;
+    /*background-color: #c03000;*/
+    user-select: none;
+    /*padding: 0.3em*/
+
+}
+
+/*
+li.dropdownListItem{
+
+    background-color: #c03000;
+
+}
+*/
+
+li.dropdownListItem:hover {
+
+/*    background-color: #b91500;
+    color: #000000;*/
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    background-color: #c03000;
+    user-select: none;
+    
+}
+
+/****************************************/
+/******** End Courses Dropdown **********/
+/****************************************/
+
+
+/****************************************/
+/******** Start Courses Blocks **********/
+/****************************************/
+
+img.coursesImages {
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    width: auto;
+    height: 7em;
+
+}
+
+div.coursesCell {
+
+    margin: 1em 1em 1em 0em;
+    /* background-color: #606060; */
+    background-color: #ffee77;
+
+}
+
+div.coursesTextSubcell {
+
+    word-wrap: break-word;
+    background-color: #f0f0f0;
+    margin: 0.7em;
+    padding: 0.7em;
+
+}
+
+/****************************************/
+/********* End Courses Blocks ***********/
+/****************************************/
+
+
+/****************************************/
+/*********** Start Top Menu *************/
+/****************************************/
+
+div.topMenu {
+
+    background-color: #202020;
+
+}
+
+img.logotype {
+
+    margin: 1em 0em;
+    width: 11em;
+
+}
+
+img.logotype:hover {
+
+    width: 20em;
+
+}
+
+div.menuButton {
+
+    margin-top: 0em;
+    width: 7em;/* 180px */
+    height: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: #333333 5px 3px 6px;
+    line-height: 1.8em;
+    color: #ffdddd;
+    background: #F49515;
+    box-shadow: #333333 0.1em 0.1em 0.1em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: #333333;
+    border-radius: 0.8em;
+    user-select: none;
+
+}
+
+div.menuButton:hover {
+
+    background-color: #d7800b;
+    color: #ff9999;
+
+}
+
+div.menuButton:active {
+
+    background-color: #b76c09;
+    color: #fa8888;
+    box-shadow: #333333 0.05em 0.05em 0.05em;
+    position: relative;
+    top: 0.07em;
+    left: 0.15em;
+
+}
+
+/****************************************/
+/************ End Top Menu **************/
+/****************************************/
+
+div.pageContent {
+
+    background: #ffffaa;
+    margin-top: 16em;/* margin-top: 13em; */ /* margin-top: 14em; */
+    margin-bottom: 3em;
+
+}
+
+div.bottomArea {
+
+    background-color: #202020;
+
+}
+
+/* button.menuButtonColor {
+
+    background-color: chartreuse;
+    background:crimson;
+
+} */
+
+a.menuLinkedButton {
+
+    color: #ffdddd;
+
+}
+
+a.menuLinkedButton:hover {
+
+    color: #ff9999;
+
+}
+
+a.menuLinkedButton:active {
+
+    color: #fa8888;
+
+}
+
+a.rightA {
+
+    margin-right: 1em;
+
+}
+
+/********* Design förändringar beroende på x-axeln värdet *********/
+
+/***** Knappmenyn förändringar *****/
+
+@media (min-width: 1px) and (max-width: 168px) {
+    
+    div.menuButton {
+
+        font-size: 0.6em;
+        
+    }
+
+    img.logotype {
+
+        display: none;
+        
+    }
+    
+}
+
+@media (min-width: 169px) and (max-width: 191px) {
+    
+    div.menuButton {
+
+        font-size: 0.7em;
+        
+    }
+
+    img.logotype {
+
+        display: none;
+        
+    }
+    
+}
+
+@media (min-width: 192px) and (max-width: 212px) {
+    
+    div.menuButton {
+
+        font-size: 0.8em;
+        
+    }
+
+    img.logotype {
+
+        display: none;
+        
+    }
+    
+}
+
+@media (min-width: 213px) and (max-width: 235px) {
+    
+    div.menuButton {
+
+        font-size: 0.9em;
+        
+    }
+
+    img.logotype {
+
+        display: none;
+        
+    }
+    
+}
+
+@media (min-width: 236px) and (max-width: 303px) {
+    
+    div.menuButton {
+
+        font-size: 1em;
+        
+    }
+
+    img.logotype {
+
+        display: none;
+        
+    }
+    
+}
+
+@media (min-width: 304px) and (max-width: 469px) {
+    
+    div.menuButton {
+
+        font-size: 1.3em;
+        
+    }
+
+    img.logotype {
+
+        display: none;
+        
+    }
+    
+}
+
+@media (min-width: 470px) and (max-width: 485px) {
+    
+    div.menuButton {
+
+        font-size: 1.3em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 3em;
+        width: 14em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 14em;
+    
+    }
+
+}
+
+@media (min-width: 486px) and (max-width: 507px) {
+    
+    div.menuButton {
+
+        font-size: 1.5em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 3em;
+        width: 14em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 14em;
+    
+    }
+
+}
+
+@media (min-width: 508px) and (max-width: 555px) {
+    
+    div.menuButton {
+
+        font-size: 1.5em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 10em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 20em;
+        
+    }
+
+}
+
+@media (min-width: 556px) and (max-width: 699px) {
+    
+    div.menuButton {
+
+        font-size: 1.5em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 20em;
+        
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 914px) {
+    
+    /* Knappmenyn hamnar bra för den här skärmstorleken */
+
+}
+
+@media (min-width: 915px) and (max-width: 954px) {
+    
+    div.menuButton {
+
+        font-size: 1.3em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 20em;
+        
+    }
+
+}
+
+@media (min-width: 955px) and (max-width: 999px) {
+    
+    div.menuButton {
+
+        font-size: 1.4em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 20em;
+        
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1099px) {
+    
+    div.menuButton {
+
+        font-size: 1.5em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 20em;
+        
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1249px) {
+    
+    div.menuButton {
+
+        font-size: 1.7em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 20em;
+        
+    }
+
+}
+
+@media (min-width: 1250px) {
+    
+    /* Knappmenyn hamnar bra för den här skärmstorleken */
+
+}
+
+/***** pageContent förändringar *****/
+
+@media (max-width: 146px) {
+    
+    div.pageContent {
+
+        margin-top: 11em;
+    
+    }
+
+}
+
+@media (min-width: 147px) and (max-width: 191px) {
+    
+    div.pageContent {
+
+        margin-top: 9em;
+    
+    }
+
+}
+
+@media (min-width: 192px) and (max-width: 212px) {
+    
+    div.pageContent {
+
+        margin-top: 10em;
+    
+    }
+
+}
+
+@media (min-width: 213px) and (max-width: 267px) {
+    
+    div.pageContent {
+
+        margin-top: 11em;
+    
+    }
+
+}
+
+@media (min-width: 268px) and (max-width: 303px) {
+    
+    div.pageContent {
+
+        margin-top: 8em;
+    
+    }
+
+}
+
+@media (min-width: 304px) and (max-width: 334px) {
+    
+    div.pageContent {
+
+        margin-top: 13em;
+    
+    }
+
+}
+
+@media (min-width: 335px) and (max-width: 469px) {
+    
+    div.pageContent {
+
+        margin-top: 9em;
+    
+    }
+
+}
+
+@media (min-width: 470px) and (max-width: 485px) {
+    
+    div.pageContent {
+
+        margin-top: 25em;
+    
+    }
+
+}
+
+@media (min-width: 486px) and (max-width: 507px) {
+    
+    div.pageContent {
+
+        margin-top: 26em;
+    
+    }
+
+}
+
+@media (min-width: 508px) and (max-width: 555px) {
+    
+    div.pageContent {
+
+        margin-top: 23em;
+    
+    }
+
+}
+
+@media (min-width: 556px) and (max-width: 699px) {
+    
+    div.pageContent {
+
+        margin-top: 19em;
+    
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 914px) {
+    
+    div.pageContent {
+
+        margin-top: 20em;
+    
+    }
+
+}
+
+@media (min-width: 915px) and (max-width: 1100px) {
+    
+    div.pageContent {
+
+        margin-top: 15em;
+    
+    }
+
+}
+
+@media (min-width: 1101px) {
+    
+    /* pageContent hamnar bra för den här skärmstorleken */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********* Design förändringar beroende på y-axeln värdet *********/

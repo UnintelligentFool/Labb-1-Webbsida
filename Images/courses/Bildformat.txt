@@ -1,0 +1,3 @@
+Bilder av 350x200 pixlar som kan ändras storlek på när de läggs in.
+
+Alternativt annan kvadratisk storlek? Just nu är detta de fastställda måtten.
