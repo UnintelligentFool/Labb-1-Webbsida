@@ -746,10 +746,35 @@ a.rightA {
 
 
 
-
-
-
-
-
-
 /********* Design förändringar beroende på y-axeln värdet *********/
+
+/***** Knappmenyn förändringar *****/
+
+@media (min-height: 955px) and (max-height: 999px) {
+
+    topMenu {
+
+        max-height: 50%;
+
+    }
+
+    /* div.menuButton {
+
+        font-size: 1.4em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 20em;
+        
+    } */
+
+}
