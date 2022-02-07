@@ -750,7 +750,7 @@ a.rightA {
 
 /***** Knappmenyn förändringar *****/
 
-@media (min-height: 955px) and (max-height: 999px) {
+@media (min-height: 1px) and (max-height: 999px) {
 
     topMenu {
 
