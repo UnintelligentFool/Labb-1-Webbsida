@@ -46,10 +46,7 @@ ul.checkboxesUl {
 /********* Start hide scrollbars **********/
 /******************************************/
 
-.hideScrollbar::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-    }
+
 
 /******************************************/
 /********* End hide scrollbars ************/
