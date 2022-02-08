@@ -43,10 +43,12 @@ ul.checkboxesUl {
 
 img.shoppingCart {
 
-    position: absolute;
+    /* position: absolute;
     top: 0.5em;
     right: 0.5em;
-    width: 4em;
+    width: 4em; */
+
+    
 
 }
 
