@@ -759,12 +759,248 @@ a.rightA {
 
 } */
 
+@media (orientation: landscape) and (min-width: 1px) and  (max-width: 245px) {
+    
+    div.pageContent {
+
+        margin-top: 11em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 246px) and  (max-width: 303px) {
+    
+    div.pageContent {
+
+        margin-top: 8em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 304px) and (max-width: 320px) {
+    
+    div.pageContent {
+
+        margin-top: 8em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 321px) and (max-width: 370px) {
+    
+    div.pageContent {
+
+        margin-top: 9em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 371px) and (max-width: 437px) {
+    
+    div.pageContent {
+
+        margin-top: 9em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 438px) and (max-width: 471px) {
+    
+    div.pageContent {
+
+        margin-top: 9em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 472px) and (max-width: 495px) {
+    
+    div.pageContent {
+
+        margin-top: 4em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 496px) and (max-width: 539px) {
+    
+    div.pageContent {
+
+        margin-top: 4em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 540px) and (max-width: 590px) {
+    
+    div.pageContent {
+
+        margin-top: 5em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 591px) and (max-width: 630px) {
+    
+    div.pageContent {
+
+        margin-top: 5em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width:631px) and (max-width: 683px) {
+    
+    div.pageContent {
+
+        margin-top: 5em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 684px) and (max-width: 758px) {
+    
+    div.pageContent {
+
+        margin-top: 10em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 759px) and (max-width: 789px) {
+    
+    div.pageContent {
+
+        margin-top: 11em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 790px) and (max-width: 833px) {
+    
+    div.pageContent {
+
+        margin-top: 11em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 834px) and (max-width: 847px) {
+    
+    div.pageContent {
+
+        margin-top: 11em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 848px) and (max-width: 891px) {
+    
+    div.pageContent {
+
+        margin-top: 12em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 892px) and (max-width: 907px) {
+    
+    div.pageContent {
+
+        margin-top: 12.5em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 908px) and (max-width: 952px) {
+    
+    div.pageContent {
+
+        margin-top: 13em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 953px) and (max-width: 968px) {
+    
+    div.pageContent {
+
+        margin-top: 13em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 969px) and (max-width: 1013px) {
+    
+    div.pageContent {
+
+        margin-top: 14em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 1014px) and (max-width: 1108px) {
+    
+    div.pageContent {
+
+        margin-top: 14em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 1109px) and (max-width: 1119px) {
+    
+    div.pageContent {
+
+        margin-top: 15em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 1120px) and (max-width: 1163px) {
+    
+    div.pageContent {
+
+        margin-top: 15em;
+    
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 1164px) {
+    
+    div.pageContent {
+
+        /* pageContent hamnar bra för den här skärmstorleken */
+    
+    }
+
+}
+
 
 /*** Förändringar när orientation landscape Slut ***/
-
-
-
-
 
 
 
@@ -772,28 +1008,6 @@ a.rightA {
 
 /***** Knappmenyn förändringar *****/
 
-/* @media (orientation: landscape) and (min-width: px) and (max-width: px) {
-
-    div.menuButton {
-
-        font-size: 0.9em;
-        
-    }
-
-    img.logotype {
-
-        margin: 1em 0em;
-        width: 8em;
-    
-    }
-
-    img.logotype:hover {
-
-        width: 8em;
-        
-    }
-
-} */
 
 @media (orientation: landscape) and (min-width: 1px) and (max-width: 303px) {
 
@@ -1031,7 +1245,7 @@ a.rightA {
 
     img.logotype {
 
-        margin: 1em 0.1em;
+        margin: 1em 0em;
         width: 6em;
     
     }
@@ -1044,7 +1258,7 @@ a.rightA {
 
  }
 
- @media (orientation: landscape) and (min-width: 759px) and (max-width: 1760px) {
+ @media (orientation: landscape) and (min-width: 759px) and (max-width: 789px) {
 
     div.menuButton {
 
@@ -1054,7 +1268,7 @@ a.rightA {
 
     img.logotype {
 
-        margin: 1em 0.1em;
+        margin: 1em 0em;
         width: 7em;
     
     }
@@ -1066,3 +1280,240 @@ a.rightA {
     }
 
  }
+
+ @media (orientation: landscape) and (min-width: 790px) and (max-width: 833px) {
+
+    div.menuButton {
+
+        font-size: 1.3em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 7em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 11em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 834px) and (max-width: 847px) {
+
+    div.menuButton {
+
+        font-size: 1.4em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 7em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 11em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 848px) and (max-width: 891px) {
+
+    div.menuButton {
+
+        font-size: 1.4em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 8em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 12em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 892px) and (max-width: 907px) {
+
+    div.menuButton {
+
+        font-size: 1.5em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 8em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 12em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 908px) and (max-width: 952px) {
+
+    div.menuButton {
+
+        font-size: 1.5em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 9em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 13em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 953px) and (max-width: 968px) {
+
+    div.menuButton {
+
+        font-size: 1.6em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 9em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 13em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 969px) and (max-width: 1013px) {
+
+    div.menuButton {
+
+        font-size: 1.6em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 10em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 13em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 1014px) and (max-width: 1108px) {
+
+    div.menuButton {
+
+        font-size: 1.7em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 10em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 13em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 1109px) and (max-width: 1119px) {
+
+    div.menuButton {
+
+        font-size: 1.7em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 16em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 1120px) and (max-width: 1163px) {
+
+    div.menuButton {
+
+        font-size: 1.9em;
+        
+    }
+
+    img.logotype {
+
+        margin: 1em 0em;
+        width: 11em;
+    
+    }
+
+    img.logotype:hover {
+
+        width: 17em;
+        
+    }
+
+ }
+
+ @media (orientation: landscape) and (min-width: 1164px) {
+
+    /* Knappmenyn hamnar bra för den här skärmstorleken */
+
+ }
+
