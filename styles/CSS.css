@@ -1011,17 +1011,17 @@ a.rightA {
     }
 
 }
-
+/*
 @media (orientation: landscape) and (min-width: 1164px) {
     
     div.pageContent {
 
-        /* pageContent hamnar bra för den här skärmstorleken */
+        *//* pageContent hamnar bra för den här skärmstorleken *//*
     
     }
 
 }
-
+*/
 
 /*** Förändringar när orientation landscape Slut ***/
 
