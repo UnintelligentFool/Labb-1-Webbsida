@@ -55,7 +55,11 @@ img.shoppingCart {
 /********* Start hide scrollbars **********/
 /******************************************/
 
+section {
 
+    overflow-x: hidden;
+
+}
 
 /******************************************/
 /********* End hide scrollbars ************/
