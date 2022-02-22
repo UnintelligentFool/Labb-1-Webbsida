@@ -67,15 +67,38 @@ section {
 
 
 /******************************************/
+/******** Start Show Sorting Menu *********/
+/******************************************/
+
+
+.showSortingWindow {
+
+    background-color: #ff3333;
+
+    color: seashell;
+    
+    position: relative;
+    right: 40%;
+
+}
+
+
+/******************************************/
+/******** End Show Sorting Menu ***********/
+/******************************************/
+
+
+/******************************************/
 /******** Start Courses Dropdown **********/
 /******************************************/
 
 div.coursesDropdownDiv {
 
+    /* display: none; */ /* Lägg till knapp som visar denna div samt kan användas för att ta bort den alternativt en till knapp för att ta bort den... */
     background-color: #ffee77;
     padding: 1em;
-    
-
+    z-index: 1;
+ 
 }
 
 div.coursesDropdown {
@@ -114,7 +137,7 @@ ul.coursesDropdownList {
     box-shadow: 0.21em 0.21em 0.35em 0.16em rgba(0, 0, 0, 0.5);
     width: 100%;
     overflow: auto;
-    z-index: 1;/* Investigate */
+    z-index: 2; /* z-index: 1; */ /* Investigate */
 
 }
 
