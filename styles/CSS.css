@@ -78,7 +78,24 @@ section {
     color: seashell;
     
     position: relative;
-    right: 40%;
+    /* right: 40%; */
+    
+}
+
+div.showSortingWindowButtonDiv {
+
+    align-content: right;
+
+}
+
+.hideSortingWindow {
+
+    background-color: #ff3333;
+
+    color: seashell;
+    
+    position: relative;
+    /* right: 48%; */
 
 }
 
@@ -94,7 +111,7 @@ section {
 
 div.coursesDropdownDiv {
 
-    /* display: none; */ /* Lägg till knapp som visar denna div samt kan användas för att ta bort den alternativt en till knapp för att ta bort den... */
+    display: none;  /* Lägg till knapp som visar denna div samt kan användas för att ta bort den alternativt en till knapp för att ta bort den... */
     background-color: #ffee77;
     padding: 1em;
     z-index: 1;
@@ -241,6 +258,65 @@ div.coursesTextSubcell {
 
 /****************************************/
 /********* End Courses Blocks ***********/
+/****************************************/
+
+
+/****************************************/
+/********** Start Add Course ************/
+/****************************************/
+
+
+div.addCourse {
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000af;
+    background-color: #0000afaa;
+    width: 100%;
+    height: 100%; */
+    
+}
+
+div.addingCourse {
+
+    position: fixed;
+    top: 0em;
+    background-color: #0000af;
+    background-color: #0000afe9;
+    z-index: 1100;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+}
+
+p.addCourseFormText {
+
+    color: #ffff00;
+    text-align: center;
+
+}
+
+button.addCourseButton {
+
+    background-color: #aaaaff;
+    color: #000000;
+
+
+}
+
+div.addCourseButtonDiv {
+
+    margin: 1em;
+
+}
+
+
+/****************************************/
+/********** End  Add Course *************/
 /****************************************/
 
 

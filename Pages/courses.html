@@ -41,11 +41,11 @@
                 <h1>Här är våra kurser!</h1>
                 <p>Vi erbjuder ett stort antal kurser och utbildningar, både på plats och distans. Här är ett smakprov på vad vi kan erbjuda just er!</p>
                 
-                <div>
-                    <button class="showSortingWindow" >&#x21E9;</button>
+                <div class="showSortingWindowButtonDiv">
+                    <button id="showSortingWindowButton" class="showSortingWindow" >&#x21E9;</button>
                 </div>
 
-                <div class="coursesDropdownDiv">
+                <div id="coursesDropdown" class="coursesDropdownDiv">
                     <div class="coursesDropdown dropdown">
                         <button id="dropdownButton" class="btn dropdown-toggle coursesDropdownButton" type="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Sortera Utbildningar</button>
                         
@@ -67,6 +67,8 @@
                         <li class="list-inline-item user-select-none"><input type="checkbox"> Seminarier</li>
                         <li class="list-inline-item user-select-none"><input type="checkbox"> Webinarier</li>
                     </ul>
+
+                    <button id="hideSortingWindowButton" class="hideSortingWindow" >&#x21E7;</button>
 
                 </div>
                 
@@ -139,11 +141,35 @@
                         </div>
                     </div>
                 </a>
-
+                    
+                <div class="addCourseButtonDiv">
+                   
+                    <button class="addCourseButton">Add course</button>
+                
+                </div>
+                
             </div>
 
         </div>     
 
+    </section>
+
+    <section id="AddingCourses">
+        
+        <div id="addCourseModal" class="addCourse">
+
+            <div class="addingCourse">
+                <form>
+                    <p class="addCourseFormText">Kursnummer:<br /><input type="text" alt="Skriv in kursnummer"></p>
+                    <p class="addCourseFormText">Kurstitel:<br /><input type="text" alt="Skriv in kurstitel"></p>
+                    <p class="addCourseFormText">Kursbeskrivning:<br /><input type="text" alt="Skriv in kursbeskrivning"></p>
+                    <p class="addCourseFormText">Kurslängd:<br /><input type="text" alt="Skriv in kurslängd"></p>
+                    <input type="submit">
+                </form>
+            </div>
+
+        </div>
+        
     </section>
 
     <section id="Bottom">
@@ -168,6 +194,6 @@
 
     <!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="../js/sort_courses_dropdown.js"></script>
+    <script src="../js/showAndHideSearch.js"></script>
 </body>
 </html>
