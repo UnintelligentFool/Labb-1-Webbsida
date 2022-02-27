@@ -19,38 +19,14 @@ const addCourseToArray = (stopButtonRefreshing) => {
     console.log(`Added course to array: ${kurstitel.value}`);
     
     for (let i = 0; i < coursesArray.length; i++) {
+
         const newCourse = coursesArray[i];
         
-        deathApproaches
+        let addCourseToList = `<li>${newCourse.id}</li>`
+
+        document.getElementById("deathApproaches").innerHTML += addCourseToList;
 
 
-
-
-
-
-
-
-
-
-
-
-        const police = policemen[i];
-    
-    let innerHTML = `<li>${police.firstName} ${police.lastName}</li>`
-
-    document.getElementById("ulListOfPersons").innerHTML += innerHTML;
-
-
-
-
-
-
-
-
-
-
-
-    
 
     }
 
