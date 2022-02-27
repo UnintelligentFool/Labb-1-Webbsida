@@ -41,6 +41,12 @@ ul.checkboxesUl {
 
 }
 
+li.addedCoursesHideDecorations {
+
+    list-style: none;
+
+}
+
 img.shoppingCart {
 
     position: absolute;
