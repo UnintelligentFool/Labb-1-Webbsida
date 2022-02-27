@@ -315,6 +315,13 @@ div.addCourseButtonDiv {
 
 }
 
+button.addingCourseButton {
+
+    background-color: #dfdf00;
+    color: #000000;
+
+}
+
 
 /****************************************/
 /********** End  Add Course *************/
