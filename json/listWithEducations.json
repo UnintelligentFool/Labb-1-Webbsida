@@ -1,0 +1,80 @@
+[
+
+	{
+
+		"id": 1,
+        "kursbild": "../Images/courses/C_Sharp.png",
+		"kursnummer": "43092848",
+		"kurstitel": "C#",
+		"kursbeskrivning": "C# är utbildningen för dig som vill ha en riktig utmaning som programmerare samt utveckla morgondagens super-applikationer!",
+		"kurslangd": "64 veckor"
+
+	},
+
+    {
+
+		"id": 2,
+		"kursbild": "../Images/courses/NET_developer.png",
+		"kursnummer": "73294359",
+		"kurstitel": ".NET utvecklare",
+		"kursbeskrivning": "Kom och lär dig allt du behöver veta för att bli framtidens bästa .NET utvecklare!",
+		"kurslangd": "38 veckor"
+
+	},
+
+    {
+
+		"id": 3,
+		"kursbild": "../Images/courses/html&css.png",
+		"kursnummer": "12988743",
+		"kurstitel": "HTML & CSS",
+		"kursbeskrivning": "Känner du att just DU är framtidens vassaste webbdesigner? Utan en webb utbildning inom HTML och CSS så kommer man inte långt! Anmäl dig till våran utbildning idag för att lära dig allt du behöver veta!",
+		"kurslangd": "14 veckor"
+
+	},
+
+    {
+
+		"id": 4,
+		"kursbild": "../Images/courses/Frontend.png",
+		"kursnummer": "90573406",
+		"kurstitel": "Frontend",
+		"kursbeskrivning": "Vill du bli morgondagens frontend utvecklare? Vill du lära dig designa de allra häftigaste sakerna med fokus på design snarare än den tyngsta koden? Då skall du ansöka till vår Frontend utbildning.",
+		"kurslangd": "32 veckor"
+
+	},
+
+    {
+
+		"id": 5,
+		"kursbild": "../Images/courses/Backend.png",
+		"kursnummer": "84602375",
+		"kurstitel": "Backend",
+		"kursbeskrivning": "Gillar du att arbeta med databaser och att skapa motorn bakom webbsidor samt desktop applikationer? Då är Backend helt rätt för dig! Här lär du dig den riktigt vassaste och bästa kodningen!",
+		"kurslangd": "19 veckor"
+
+	},
+
+    {
+
+		"id": 6,
+		"kursbild": "../Images/courses/Fullstack.png",
+		"kursnummer": "48266703",
+		"kurstitel": "Fullstack",
+		"kursbeskrivning": "Tycker du om att både utveckla desingnen likt en frontend utvecklare, samt att ta tag i de tyngre kodbitarna samt databaserna såsom en backend utvecklare? Då skall du bli en fulllstack utvecklare och lära dig alla de viktiga bitarna i denna stentuffa Fullstack utbildning!",
+		"kurslangd": "20 veckor"
+
+	},
+
+    {
+
+		"id": 7,
+		"kursbild": "../Images/courses/C++.png",
+		"kursnummer": "31367494",
+		"kurstitel": "C++",
+		"kursbeskrivning": "Om du gillar C++ så är detta utbildningen för dig. Kom och lär.",
+		"kurslangd": "12 veckor"
+
+	}
+
+]
