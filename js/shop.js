@@ -22,12 +22,12 @@ function addToCart(product) {
 showItemsInCart();
 function showItemsInCart() {
 
-    let cartShowing = JSON.parse(sessionStorage.getItem("cart"));
+    let cartShowing = [JSON.parse(sessionStorage.getItem("cart"))];
 
     for (let i = 0; i < cartShowing.length; i++) {
         const cartItem = cartShowing[i];
 
-        let theShow = `<li><p>${cartShowing}</p></li>`
+        let theShow = `<li><p>${cartItem}</p></li>`
 
         document.getElementById("listOfItemsInCart").innerHTML += theShow;
 
