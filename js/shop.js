@@ -27,7 +27,7 @@ function showItemsInCart() {
     for (let i = 0; i < cartShowing.length; i++) {
         const cartItem = cartShowing[i];
 
-        let theShow = `<li><p>${cartItem}</p></li>`
+        let theShow = `<li><p>${cartItem}</p></li><br />`
 
         document.getElementById("listOfItemsInCart").innerHTML += theShow;
 
