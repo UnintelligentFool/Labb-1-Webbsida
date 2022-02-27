@@ -134,7 +134,7 @@ div.showSortingWindowButtonDiv {
 
 div.coursesDropdownDiv {
 
-    display: none;  /* Lägg till knapp som visar denna div samt kan användas för att ta bort den alternativt en till knapp för att ta bort den... */
+    display: none;
     background-color: #ffee77;
     padding: 1em;
     z-index: 1;
@@ -154,7 +154,7 @@ button.coursesDropdownButton {
     color: #eeeeee;
     padding: 0.2em 2em;
     border: 1;
-    cursor: pointer;/* Useless for my user case? Irrelevant; may aswell stay... */
+    cursor: pointer;
 
 }
 
@@ -177,7 +177,7 @@ ul.coursesDropdownList {
     box-shadow: 0.21em 0.21em 0.35em 0.16em rgba(0, 0, 0, 0.5);
     width: 100%;
     overflow: auto;
-    z-index: 2; /* z-index: 1; */ /* Investigate */
+    z-index: 2;
 
 }
 
@@ -217,24 +217,11 @@ p.dropdownP:hover {
     text-align: left;
     margin: 0.5em;
     color: #000000;
-    /*background-color: #c03000;*/
     user-select: none;
-    /*padding: 0.3em*/
 
 }
-
-/*
-li.dropdownListItem{
-
-    background-color: #c03000;
-
-}
-*/
 
 li.dropdownListItem:hover {
-
-/*    background-color: #b91500;
-    color: #000000;*/
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000000;
@@ -292,13 +279,6 @@ div.coursesTextSubcell {
 div.addCourse {
 
     display: none;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0000af;
-    background-color: #0000afaa;
-    width: 100%;
-    height: 100%; */
     
 }
 
@@ -420,7 +400,7 @@ div.menuButton:active {
 div.pageContent {
 
     background: #ffffaa;
-    margin-top: 16em;/* margin-top: 13em; */ /* margin-top: 14em; */
+    margin-top: 16em;
     margin-bottom: 3em;
 
 }
@@ -430,13 +410,6 @@ div.bottomArea {
     background-color: #202020;
 
 }
-
-/* button.menuButtonColor {
-
-    background-color: chartreuse;
-    background:crimson;
-
-} */
 
 a.menuLinkedButton {
 
