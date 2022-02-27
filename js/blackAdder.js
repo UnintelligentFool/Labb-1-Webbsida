@@ -28,10 +28,6 @@ const addCourseToJSON = (stopButtonRefreshing) => {
     a.download = "../listWithEducations.json";
     a.click();
 
-    // var data = new FormData();
-    // data.append("upfile", new Blob([JSON.stringify(coursesArray)], {type: "text/plain"}));
-    // fetch("listWithEducations.json", { method: "POST", body: data });
-
 }
 
 document.addEventListener('DOMContentLoaded', () => {
