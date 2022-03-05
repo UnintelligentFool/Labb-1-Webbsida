@@ -69,6 +69,26 @@ ul.hatedUl {
 
 }
 
+button.payButtonClass {
+
+    margin-bottom: 1em;
+
+    background-color: #bbbbff;
+
+}
+
+button.payButtonClass:hover {
+
+    background-color: #7777ff;
+
+}
+
+button.payButtonClass:active {
+
+    background-color: #2222ff;
+
+}
+
 /******************************************/
 /******** End Shopping Cart Page **********/
 /******************************************/
