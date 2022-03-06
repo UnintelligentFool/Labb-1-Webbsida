@@ -1,5 +1,5 @@
 let showPayModal = document.getElementById("payButton");
-//let hidePayModal = document.getElementById("paidButton");
+let hidePayModal = document.getElementById("payModal");
 let addPayModal = document.getElementById("payModal");
 
 
@@ -9,8 +9,8 @@ showPayModal.onclick = function() {
 
 }
 
-window.onclick = function() {
+hidePayModal.onclick = function() {
 
-    payModal.style.display = "none";
-    
+    addPayModal.style.display = "none";
+
 }
