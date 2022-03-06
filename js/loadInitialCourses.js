@@ -40,6 +40,7 @@ for (let i = 0; i < importedJSON.length; i++) {
                         <br />
                         <p><b><i>Kursnummer: </i></b>${jsonToCourse.kursnummer}</p>
                         <p><b><i>Kurslängd: </i></b>${jsonToCourse.kurslangd}</p>
+                        <p><b><i>Pris: </i></b>${jsonToCourse.pris} SEK</p>
                     </div>
                 </div>
             </a>
