@@ -31,7 +31,7 @@ for (let i = 0; i < importedJSON.length; i++) {
     let addCourseToList = `
         
         <div id="loadInitialCourses">
-            <a href="#" id="${jsonToCourse.kurstitel}" onClick="addToCart(this.id)">
+            <a href="#" id="${jsonToCourse.kurstitel}" onClick="addToCart([this.id, ${jsonToCourse.pris}])">
                 <div class="row container coursesCell">
                     <img src="${jsonToCourse.kursbild}" class="col-4 float-start coursesImages" alt="${jsonToCourse.kurstitel}" />
                     <div class="col-8 float-end coursesTextSubcell">

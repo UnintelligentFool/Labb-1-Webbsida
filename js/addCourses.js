@@ -16,7 +16,7 @@ const addCourseToArray = (stopButtonRefreshing) => {
         let addCourseToList = `
         
             <div>
-                <a href="#" id="${kurstitel.value}" onClick="addToCart(this.id)">
+                <a href="#" id="${kurstitel.value}" onClick="addToCart([this.id, ${pris.value}])">
                     <div class="row container coursesCell">
                         <img src="${kursbild.value}" class="col-4 float-start coursesImages" alt="${kurstitel.value}" />
                         <div class="col-8 float-end coursesTextSubcell">
@@ -25,6 +25,7 @@ const addCourseToArray = (stopButtonRefreshing) => {
                             <br />
                             <p><b><i>Kursnummer: </i></b>${kursnummer.value}</p>
                             <p><b><i>Kurslängd: </i></b>${kurslangd.value}</p>
+                            <p><b><i>Pris: </i></b>${pris.value} SEK</p>
                         </div>
                     </div>
                 </a>
