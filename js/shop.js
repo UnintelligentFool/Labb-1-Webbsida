@@ -1,5 +1,7 @@
 let cart = [];
 
+let increasingNumber = 5000;
+
 if (sessionStorage.getItem("cart")) {
 
          cart = [JSON.parse(sessionStorage.getItem("cart"))];
@@ -8,9 +10,15 @@ if (sessionStorage.getItem("cart")) {
 
 function addToCart(product) {
 
-    cart += "<li><p>" + product + "</p></li>";// class=\"hatedLi\"
+    //console.log("addToCart function entered. cart: " + cart);
 
-    console.log(cart);
+    cart += "<li id=\"" + increasingNumber + "\"><p>" + product + "</p><button id=\"" + increasingNumber + "\" class=\"payButtonClass\" value=\"Disintegrate\" onclick=\"deathStarActivate(" + increasingNumber + ")\">-</button></li>";
+
+    increasingNumber++;
+
+    console.log("Item added." + cart);
+    //console.log("Item added. cart: " + cart);
+    //console.log(cart);
 
     //Källa: https://handyman.dulare.com/save-javascript-variables-between-pages/
     sessionStorage.setItem("cart", [JSON.stringify(cart)]);
@@ -20,8 +28,17 @@ function addToCart(product) {
 }
 
 
+function deathStarActivate(issuedTarget) {
 
+    let republicScum = document.getElementById(issuedTarget);
 
+    console.log("issuedTarget = " + republicScum + " Status: ANNIHILATED");
+
+    republicScum.parentNode.removeChild(republicScum);
+
+}
+
+//window.location.href="shopping_Cart.html"; //Laddar om sidan
 
 showItemsInCart();
 function showItemsInCart() {
