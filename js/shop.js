@@ -20,9 +20,7 @@ function addToCart(product) {
 
     //console.log("addToCart function entered. cart: " + cart);
 
-    cart += [["<li id=\"" + increasingNumber + "\"><p>" + product + "</p><button id=\"" + increasingNumber + "\" class=\"payButtonClass\" value=\"Disintegrate\" onclick=\"deathStarActivate(" + increasingNumber + ")\">-</button></li>"], ["<p class=\"pricePosition\">" + product[1] + "</p>"]];
-
-    
+    cart += [["<li id=\"" + increasingNumber + "\"><p>" + product + "</p><button id=\"" + increasingNumber + "\" class=\"payButtonClass\" value=\"Disintegrate\" onclick=\"deathStarActivate(" + increasingNumber + ", " + product[1] + ")\">-</button></li>"], ["<p class=\"pricePosition\">" + product[1] + "</p>"]];
 
     increasingNumber++;
 
@@ -39,18 +37,18 @@ function addToCart(product) {
     sessionStorage.setItem("amountToPay", [JSON.stringify(amountToPay)]);
     console.log("PAY UP: " + amountToPay);
 
-
-
 }
 
 
-function deathStarActivate(issuedTarget) {
+function deathStarActivate(issuedTarget, unitPrice) {
 
     let republicScum = document.getElementById(issuedTarget);
+    let deductFromPrice = unitPrice;
 
+    //console.log("issuedTarget = " + republicScum + " Status: ANNIHILATED");
     console.log("issuedTarget = " + republicScum + " Status: ANNIHILATED");
 
-    //amountToPay -= republicScum[1];
+    amountToPay -= deductFromPrice;
     //console.log("Price of THIS PRODUCT: " + parseInt(republicScum[1]));
     console.log("PAY UP: " + amountToPay);
 
