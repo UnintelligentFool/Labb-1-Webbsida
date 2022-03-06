@@ -48,9 +48,9 @@ function deathStarActivate(issuedTarget) {
 
     let republicScum = document.getElementById(issuedTarget);
 
-    console.log("issuedTarget = " + republicScum[0] + " Status: ANNIHILATED");
+    console.log("issuedTarget = " + republicScum + " Status: ANNIHILATED");
 
-    amountToPay -= republicScum[1];
+    //amountToPay -= republicScum[1];
     //console.log("Price of THIS PRODUCT: " + parseInt(republicScum[1]));
     console.log("PAY UP: " + amountToPay);
 
