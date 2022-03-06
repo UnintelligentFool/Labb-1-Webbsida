@@ -5,8 +5,8 @@ let addPayModal = document.getElementById("payModal");
 
 showPayModal.onclick = function() {
 
-    payModal.style.display = "block";
-    
+    addPayModal.style.display = "block";
+
 }
 
 window.onclick = function() {
