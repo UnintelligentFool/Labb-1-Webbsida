@@ -102,19 +102,25 @@ button.payButtonClass:active {
 
 
 /******************************************/
-/******* Start Shopping Cart Modal ********/
+/******* Start Pay Modal ********/
 /******************************************/
 
-/* div.shoppingCartModal {
+div.myPayModal {
 
     
     
-} */
+}
+
+div.payModalContent {
+
+
+    
+}
 
 
 
 /******************************************/
-/******** End Shopping Cart Modal *********/
+/******** End Pay Modal *********/
 /******************************************/
 
 
