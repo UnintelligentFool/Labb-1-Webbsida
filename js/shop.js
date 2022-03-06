@@ -23,7 +23,7 @@ function addToCart(product) {
     //Källa: https://handyman.dulare.com/save-javascript-variables-between-pages/
     sessionStorage.setItem("cart", [JSON.stringify(cart)]);
     
-    alert(`${product} lades till i kundvagnen!`);
+    alert(`${product[0]} lades till i kundvagnen!`);
 
 }
 
