@@ -108,20 +108,23 @@ button.payButtonClass:active {
 div.myPayModal {
 
     display: none;
-    
+    position: fixed;
+    top: 33%;
+    left: auto;
+    right: auto;
 }
 
 div.payModalContent {
 
-    position: fixed;
-    top: 0em;
-    background-color: #0000af;
-    background-color: #0000afe9;
+    background-color: #2aca38;
+    background-color: #2aca38f7;
+    color: #ffffff;
     z-index: 1200;
     padding: 1em;
+    margin: auto;
     text-align: center;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     overflow: auto;
 
 }

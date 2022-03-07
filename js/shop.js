@@ -4,6 +4,9 @@ let amountToPay = 0;
 
 let increasingNumber = 5000;
 
+let showMessage = document.getElementById("paymentConfirmation").innerHTML = "<h4>" + amountToPay + "</h4>";
+// let showMessage = document.getElementById("paymentConfirmation").outerHTML = "<h4>" + amountToPay + "</h4>";
+
 if (sessionStorage.getItem("cart")) {
 
          cart = [JSON.parse(sessionStorage.getItem("cart"))];
@@ -66,5 +69,12 @@ function showItemsInCart() {
         console.log(theShow);
 
     }
+
+}
+
+youPaidMessage();
+function youPaidMessage() {
+
+    showMessage = document.getElementById("paymentConfirmation").outerHTML = "<h4>" + amountToPay + "</h4>";
 
 }
