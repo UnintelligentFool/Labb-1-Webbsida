@@ -6,6 +6,7 @@ let addPayModal = document.getElementById("payModal");
 showPayModal.onclick = function() {
 
     addPayModal.style.display = "block";
+    //updatePriceInPaymentMessage()
 
 }
 

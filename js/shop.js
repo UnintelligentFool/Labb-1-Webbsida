@@ -46,12 +46,57 @@ function deathStarActivate(issuedTarget, unitPrice) {
 
     console.log("issuedTarget = " + republicScum + " Status: ANNIHILATED");
 
-    amountToPay -= deductFromPrice;
-    console.log("PAY UP: " + amountToPay);
+    if(amountToPay > 0) {
+
+        amountToPay -= deductFromPrice;
+        console.log("PAY UP: " + amountToPay);
+
+    }
+
+    if(amountToPay < 0) {
+
+        console.log("Your debt: " + amountToPay);
+
+        amountToPay = 0;
+
+        console.log("Debt settled: " + amountToPay);
+
+    }
+
+    // cart -= cart.indexOf([republicScum]);
+    // cart.splice(republicScum, 1);
+    // cart -= cart.splice(republicScum, 1);
+
+    // //Källa: https://social.msdn.microsoft.com/Forums/en-US/f8795f0e-e482-455f-9ee9-780476f93552/delete-an-item-in-array-which-is-stored-in-localstorage?forum=asphtmlcssjavascript
+    // let removeUnwantedItem = cart.filter(function (remove) {
+    //     return remove != republicScum
+    // });
+    // sessionStorage.setItem("cart", [JSON.stringify(removeUnwantedItem)]);
+
+    // //Källa: https://social.msdn.microsoft.com/Forums/en-US/f8795f0e-e482-455f-9ee9-780476f93552/delete-an-item-in-array-which-is-stored-in-localstorage?forum=asphtmlcssjavascript
+    // whatever = cart.splice((cart.findIndex(remove => {return remove = republicScum})), 1);
+    // sessionStorage.setItem("cart", [JSON.stringify(cart)]);
+
+
+
+
+
+
+
+
+    
+    sessionStorage.setItem("amountToPay", JSON.stringify(amountToPay));
+    showMessage = document.getElementById("paymentConfirmation").innerHTML = "<h4>" + amountToPay + "</h4>";
+    
+    // console.log("Die " + republicScum + " in the name of God!");
+    // window.sessionStorage.removeItem("cart[" + republicScum + "]");
+    // console.log(republicScum + " died in the name of God!");
 
     republicScum.parentNode.removeChild(republicScum);
 
-}
+    //window.location.href="shopping_Cart.html";
+
+ }
 
 //window.location.href="shopping_Cart.html"; //Laddar om sidan
 
@@ -72,9 +117,18 @@ function showItemsInCart() {
 
 }
 
-youPaidMessage();
-function youPaidMessage() {
+// function updatePriceInPaymentMessage() {
 
-    showMessage = document.getElementById("paymentConfirmation").outerHTML = "<h4>" + amountToPay + "</h4>";
+//     youPaidMessage(amountToPay);
+
+// }
+
+youPaidMessage(/* amountToPay */);
+function youPaidMessage(/* payThisAmount */) {
+
+    // let amount = payThisAmount;
+
+    showMessage = document.getElementById("paymentConfirmation").innerHTML = "<h4>" + amountToPay + "</h4>";
+    // showMessage = document.getElementById("paymentConfirmation").outerHTML = "<h4>" + amount + "</h4>";
 
 }
