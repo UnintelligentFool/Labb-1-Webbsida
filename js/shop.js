@@ -21,7 +21,7 @@ if (sessionStorage.getItem("amountToPay")) {
 
 function addToCart(product) {
 
-    cart += [["<li id=\"" + increasingNumber + "\"><p>" + product + "</p><button id=\"" + increasingNumber + "\" class=\"payButtonClass\" value=\"Disintegrate\" onclick=\"deathStarActivate(" + increasingNumber + ", " + product[1] + ")\">-</button></li>"] + "<b class=\"disguise\">" + "," + "</b> " +  ["<p class=\"pricePosition\">" + product[1] + "</p>"]];
+    cart += [["<li id=\"" + increasingNumber + "\"><p>" + product[0] + "</p><button id=\"" + increasingNumber + "\" class=\"payButtonClass\" value=\"Disintegrate\" onclick=\"deathStarActivate(" + increasingNumber + ", " + product[1] + ")\">-</button></li>"] + "<b class=\"disguise\">, </b> " +  ["<p class=\"pricePosition\">" + product[1] + "</p>"]];
 
     increasingNumber++;
 
@@ -93,6 +93,25 @@ function deathStarActivate(issuedTarget, unitPrice) {
 
     // }
 
+
+
+    //cart -= cart[cart.slice(republicScum, 1)];
+
+
+
+    // let tempCart = cart;
+    // let newCart = [];
+    // for (let i = 0; i < [JSON.parse(sessionStorage.getItem("cart"))].length; i++) {
+    //     const cartValues = [JSON.parse(sessionStorage.getItem("cart"))][i];
+        
+    //     if (cartValues !== republicScum) {
+
+    //         sessionStorage.setItem("newCart", [JSON.stringify(newCart)]);
+
+    //     }
+
+    // }
+    // cart = newCart;
 
 
 
