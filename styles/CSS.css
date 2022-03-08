@@ -69,6 +69,13 @@ ul.hatedUl {
 
 }
 
+b.disguise {
+
+    color: #ffff00;
+    user-select: none;
+
+}
+
 button.payButtonClass {
 
     margin-bottom: 1em;

@@ -21,7 +21,7 @@ if (sessionStorage.getItem("amountToPay")) {
 
 function addToCart(product) {
 
-    cart += [["<li id=\"" + increasingNumber + "\"><p>" + product + "</p><button id=\"" + increasingNumber + "\" class=\"payButtonClass\" value=\"Disintegrate\" onclick=\"deathStarActivate(" + increasingNumber + ", " + product[1] + ")\">-</button></li>"], ["<p class=\"pricePosition\">" + product[1] + "</p>"]];
+    cart += [["<li id=\"" + increasingNumber + "\"><p>" + product + "</p><button id=\"" + increasingNumber + "\" class=\"payButtonClass\" value=\"Disintegrate\" onclick=\"deathStarActivate(" + increasingNumber + ", " + product[1] + ")\">-</button></li>"] + "<b class=\"disguise\">" + "," + "</b> " +  ["<p class=\"pricePosition\">" + product[1] + "</p>"]];
 
     increasingNumber++;
 
@@ -80,11 +80,22 @@ function deathStarActivate(issuedTarget, unitPrice) {
 
 
 
+    // for (let i = 0; i < cart.length; i++) {
+    //     const course = cart[i];
+        
+    //     if(course == republicScum) {
+
+    //         let thingsToBuy = cart;
+    //         thingsToBuy -= cart[i];
+    //         sessionStorage.setItem("cart", [JSON.stringify(thingsToBuy)]);
+
+    //     }
+
+    // }
 
 
 
 
-    
     sessionStorage.setItem("amountToPay", JSON.stringify(amountToPay));
     showMessage = document.getElementById("paymentConfirmation").innerHTML = "<h4>" + amountToPay + "</h4>";
     
