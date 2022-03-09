@@ -55,11 +55,11 @@ function deathStarActivate(issuedTarget, unitPrice) {
 
     if(amountToPay < 0) {
 
-        console.log("Your debt: " + amountToPay);
+        console.log("Your debt: " + amountToPay);//Is it ever shown? But the code runs? O.o
 
         amountToPay = 0;
 
-        console.log("Debt settled: " + amountToPay);
+        console.log("Debt settled: " + amountToPay);//Is it ever shown? But the code runs? O.o
 
     }
 

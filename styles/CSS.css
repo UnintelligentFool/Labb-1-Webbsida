@@ -98,6 +98,8 @@ button.payButtonClass:active {
 
 .pricePosition {
 
+    position: relative;
+    top: -6em;
     text-align: right;
 
 }
